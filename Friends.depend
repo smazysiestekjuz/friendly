@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1670496212 source:d:\codeblocks\friends\friends.cpp
+	<iostream>
+	"friends.h"
+
+1670501509 d:\codeblocks\friends\friends.h
+	<iostream>
+
+1670501842 source:d:\codeblocks\friends\main.cpp
+	<iostream>
+	"friends.h"
+

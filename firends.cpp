@@ -8,3 +8,10 @@ Punkt::Punkt(string n, float xx, float yy)
     x=xx;
     y=yy;
 }
+
+void Punkt::wczytaj()
+{
+    cout<<"Podaj x: "; cin>>x;
+    cout<<"Podaj y: "; cin>>y;
+    cout<<"Nazwa punktu: "; cin>>nazwa;
+}

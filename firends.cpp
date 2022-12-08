@@ -15,3 +15,5 @@ void Punkt::wczytaj()
     cout<<"Podaj y: "; cin>>y;
     cout<<"Nazwa punktu: "; cin>>nazwa;
 }
+
+Prostokat::Prostokat()

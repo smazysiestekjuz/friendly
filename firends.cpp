@@ -24,3 +24,13 @@ Prostokat::Prostokat(string n, float xx,float yy,float s,float w)
     szerokosc=s;
     wysokosc=w;
 }
+
+void Prostokat::wczytaj()
+{
+    cout<<"Podaj x lewego dolnego naroznika: "; cin>>x;
+    cout<<"Podaj y lewego dolnego naroznika: "; cin>>y;
+    cout<<"Podaj szerokosc: "; cin>>szerokosc;
+    cout<<"Podaj wysokosc: "; cin>>wysokosc;
+    cout<<"Podaj nazwe prostokata: "; cin>>nazwa;
+
+}

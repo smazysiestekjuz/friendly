@@ -17,4 +17,10 @@ void Punkt::wczytaj()
 }
 
 Prostokat::Prostokat(string n, float xx,float yy,float s,float w)
-
+{
+    nazwa = n;
+    x=xx;
+    y=yy;
+    szerokosc=s;
+    wysokosc=w;
+}
